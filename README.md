@@ -1,1 +1,1 @@
-Exercício prático do módulo git, do curso Desenvolvimento Full Stack Python
+Exercício prático do módulo integrando JavaScript ao HTML, do curso Desenvolvimento Full Stack Python
