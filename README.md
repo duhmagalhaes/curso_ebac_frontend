@@ -1,5 +1,7 @@
 LISTA DE TAREFAS
-Este é um projeto simples de Lista de Tarefas utilizando HTML, CSS e jQuery. O objetivo é permitir que os usuários adicionem, risquem e removam tarefas de uma lista.
+
+Este é um projeto simples de Lista de Tarefas utilizando HTML, CSS e jQuery. 
+O objetivo é permitir que os usuários adicionem, risquem e removam tarefas de uma lista.
 
 FUNCIONALIDADES
 - Adicionar novas tarefas
