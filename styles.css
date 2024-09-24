@@ -1,0 +1,86 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #cf41e2;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #90419b;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #f1b9e8;
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, 
+button {
+    padding: 8px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+#botao-cancelar {
+    background-color: red;
+}
+
+/* Estilo da lista de tarefas */
+#lista-tarefas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+#lista-tarefas li {
+    width: 100%;
+    max-width: 600px; /* Ajuste conforme necessário */
+    list-style: none;
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lista-tarefas li button {
+    margin-left: 8px;
+}
+
+/* Estilo para tarefas concluídas */
+.concluida {
+    text-decoration: line-through;
+    color: grey;
+}
+
+/* Estilo para o botão "Remover" */
+button.remover {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
